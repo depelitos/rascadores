@@ -82,7 +82,7 @@ body {
 }
 
 .card.expanded {
-  height: 480px;
+  height: 488px;
   transition: 1s;
 }
 .foto{
@@ -397,10 +397,8 @@ text-decoration:none;
 
 @media (max-width: 367px) {
  
-  .card.expanded {
-      height: 2060px;
-     
-    } 
+ 
+    
     .title {
       font-size:17px ;
     }

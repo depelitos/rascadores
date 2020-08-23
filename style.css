@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Arapey&family=Old+Standard+TT:wght@700&display=swap');
 :root{
     --body:#1f2021; 
-   --fondo :#f6a7bdff;
+   --fondo :#f6a7bd;
 }
 body {
   color: var(--body);
@@ -14,6 +14,24 @@ body {
    background: linear-gradient(to right, #ffffff , var(--fondo) ); 
   transition: 1s;
   
+}
+.btn{
+
+  border-radius: 45px;
+  padding:5px 5px;
+  background: var(--fondo);
+  outline: none;
+  text-decoration: none;
+  color:#fff;
+  text-transform: uppercase;
+
+}
+.btn:hover{
+
+  background:#a7c0f6;
+ 
+
+
 }
 .container{
 
@@ -82,7 +100,7 @@ body {
 }
 
 .card.expanded {
-  height: 488px;
+  height: 528px;
   transition: 1s;
 }
 .foto{
@@ -114,7 +132,8 @@ body {
 }
 .chevron {
     position: absolute;
-    bottom: 20px;
+    bottom: 10px;
+   margin-top: 15px;
     left: calc(50% - 15px);
     transform-origin: 50%;
     transform: rotate(180deg);
@@ -124,6 +143,7 @@ body {
     transform: rotate(0deg);
   }
 .text-content {
+  padding: 12px 0;
   transform: translateY(-400px);
   transition: transform 1000ms;
 }
@@ -140,7 +160,12 @@ body {
   margin: 20px 0 12px;
 }
 .body-text {
-  padding: 0 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+  padding-bottom: 14px;
+ 
+  
 }
 .article{
 display: flex;
